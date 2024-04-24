@@ -1,0 +1,895 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 4rem;
+    font-weight: 400;
+    color: black;
+    margin-top: 80px;
+
+    span {
+        color: #FF725E;
+    }
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 9%;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    background-color: #fff;
+
+    .logo {
+        margin-right: auto;
+        width: 150px;
+        height: 60px;
+        background-color: black;
+
+    }
+
+    .logo img {
+        width: 150px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    .navbar {
+
+        a {
+            margin-left: 2rem;
+            font-size: 1.7rem;
+            color: black;
+            text-decoration: none;
+            outline: none;
+
+            &:hover {
+                color: #ec4a22;
+            }
+        }
+
+        #nav-close {
+            font-size: 5rem;
+            cursor: pointer;
+            color: black;
+            display: none;
+        }
+    }
+
+    .icons div {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        cursor: pointer;
+        color: black;
+
+    }
+
+    #menu-btn {
+        display: none;
+
+    }
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(Assets/bg.webp);
+    background-size: cover;
+    background-color: rgb(207, 30, 118);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main .main-content h1 {
+    font-size: 3vw;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 30px;
+    line-height: 4vw;
+    color: #f7f2f2;
+}
+
+.main .main-content h1 span{
+    color: #FF725E;
+}
+
+.main .contact-btn {
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 150px;
+    height: 60px;
+    background-color: #FF725E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    justify-content: center;
+}
+
+
+.main .contact-btn h3 {
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.main .contact-btn  a{
+    text-decoration: none;
+}
+
+
+/* Why chose us */
+.what-we-do .what-we-do-container {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.what-we-do-container .box-c {
+    width: 20vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+}
+
+.what-we-do-container .box-c img {
+
+    height: 10vw;
+    width: 10vw;
+    /* border-radius: 50%; */
+    margin-bottom: 1rem;
+    object-fit: contain;
+
+}
+
+.what-we-do-container .box-c h3 {
+    font-size: 1.3vw;
+
+
+
+}
+
+
+/* Gallary */
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.images-container .img-box {
+
+    display: flex;
+    width: 30vw;
+    height: 18vw;
+
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #ec4a22;
+    border-radius: 10px;
+
+
+}
+
+.images-container .img-box img {
+    width: 30vw;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+
+
+/* Courses */
+
+.courses .box-container-course {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.courses .box-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    margin: 40px;
+    padding: 10px;
+    background-color: #fff;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.courses .box-c img {
+    height: 25vw;
+    width: 25vw;
+    margin: 30px;
+    /* border-radius: 50%; */
+
+}
+
+.courses .box-c h3 {
+    font-size: 2rem;
+}
+
+.courses .box-c p {
+    font-size: 1.4rem;
+    color: black;
+    padding: 1rem 0;
+    line-height: 1.2;
+}
+
+.courses .box-c .course-btn {
+    display: flex;
+    width: 90%;
+    height: 70px;
+    margin: 20px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #ec4a22;
+}
+
+
+.courses .box-c .course-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+
+/* testnomines */
+
+
+.testimonials__grid {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    padding: 2rem;
+    display: grid;
+    gap: 1rem;
+    background-color: var(--extra-light);
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+}
+
+.card i {
+    font-size: 2.5rem;
+    color: gold;
+    display: flex;
+    align-items: center;
+}
+
+.card p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card hr {
+    width: 40px;
+    margin: auto;
+    color: var(--text-light);
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 100%;
+    border: 1px solid var(--primary-color);
+}
+
+.card .name {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--text-light);
+    transition: 0.3s;
+}
+
+.card .name:hover {
+    color: var(--primary-color);
+}
+
+
+
+
+
+/* COntact us  */
+
+
+.contact-container {
+    display: flex;
+    /* Display as flex container */
+    flex-direction: row;
+}
+
+
+.contact-container .contact-info {
+    width: 40vw;
+    height: 70vh;
+    background-color: #ec4a22;
+    margin-left: 10vw;
+    border-radius: 20px 0 0 20px;
+}
+
+.map {
+    width: 40vw;
+    height: 70vh;
+    background-color: #767268;
+    border-radius: 0 20px 20px 0;
+    overflow: hidden;
+    /* Optional: Hides overflowing content */
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.contact-container .contact-info h2 {
+    font-size: 3.5rem;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.contact-container .contact-info p {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 40px;
+    line-height: 2rem;
+}
+
+.contact-container .contact-info h3 {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.contact-container .contact-info h3 span {
+    color: #fff;
+}
+
+
+
+
+/* get in touch */
+
+
+.contact {
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    /* padding-top: 50px; */
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contaact-h1 {
+    font-size: 60px;
+
+
+}
+
+.contact-form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 75px;
+
+}
+
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form textarea {
+    resize: none;
+    width: 100%;
+    /* Set width to 100% */
+    height: 180px;
+    /* Allow height to adjust based on content */
+    min-height: 80px;
+    /* Set a minimum height to ensure it's not too small */
+}
+
+.contact-form button {
+    width: 100%;
+    max-width: 200px;
+    height: 60px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #ec4a22;
+    border-radius: 20px;
+
+}
+
+
+
+/* footer */
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(Assets/footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .box-container {
+        @include grid(25rem);
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        gap: 15;
+
+        .box,
+        .box1,
+        .box2 {
+
+            h3 {
+                font-size: 2rem;
+                padding: 1.5rem 0;
+                color: #fff;
+            }
+
+            a {
+                display: block;
+                font-size: 1.4rem;
+                color: #fff;
+                padding: 1rem 0;
+                text-decoration: none;
+
+                i {
+                    color: #ec4a22;
+                    padding-right: .5rem;
+
+                }
+
+                &:hover {
+                    color: #ec4a22;
+
+                    i {
+                        padding-right: 2rem;
+                    }
+                }
+            }
+
+
+
+        }
+    }
+}
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(Assets/footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 0;
+    /* Add padding to the footer */
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* Center align the boxes horizontally */
+    gap: 30px;
+    /* Add gap between the boxes */
+}
+
+.box,
+.box1,
+.box2 {
+    width: calc(25% - 15px);
+    /* Calculate box width with gap */
+    /* padding: 10px; */
+
+    border-radius: 10px;
+    /* Example border radius */
+    text-align: center;
+}
+
+
+
+
+
+.credit {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+
+    span {
+        color: #ec4a22;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media (max-width: 1200px) {
+
+    .header {
+
+        #menu-btn {
+            display: inline-block;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: -160%;
+            background: #fff;
+            z-index: 10000;
+            width: 35rem;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+
+            &.active {
+                left: 0;
+                box-shadow: 0 0 0 100vw rgba(0, 0, 0, .8);
+            }
+
+            a {
+                margin: 1rem 0;
+                font-size: 3rem;
+            }
+
+            #nav-close {
+                display: block;
+                position: absolute;
+                top: 1rem;
+                right: 2rem;
+            }
+        }
+    }
+
+    .main .main-content h1 {
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+
+    .what-we-do .what-we-do-container {
+
+        flex-direction: column;
+    }
+
+    .what-we-do-container .box-c {
+        width: 50vw;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .what-we-do-container .box-c h3 {
+        font-size: 3vw;
+
+    }
+
+    .what-we-do-container .box-c p {
+        font-size: 2.8vw;
+        color: rgb(83, 82, 82);
+    }
+
+    /* contat us */
+
+
+    .contact-container {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .contact-container .contact-info {
+        width: 70vw;
+        height: 60vh;
+        border-radius: 20px 20px 0 0;
+    }
+
+
+
+    .map {
+        width: 70vw;
+        height: 40vh;
+        margin-left: 10vw;
+        border-radius: 0 0 20px 20px;
+    }
+
+
+    /* footer */
+
+    .Contact ul li {
+        font-size: 6vw;
+    }
+
+
+    .box-container {
+        flex-direction: column;
+        /* Change flex direction to column on smaller screens */
+        align-items: center;
+        justify-content: center;
+        margin-right: 90px;
+
+
+    }
+
+
+    .box {
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .box1,
+    .box2 {
+        display: none;
+    }
+
+}
+
+
+
+
+
+/* Responsve for mobail */
+
+@media (max-width: 700px) {
+
+    .header {
+
+        #menu-btn {
+            display: inline-block;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: -160%;
+            background: #fff;
+            z-index: 10000;
+            width: 25rem;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+
+            &.active {
+                left: 0;
+                box-shadow: 0 0 0 100vw rgba(0, 0, 0, .8);
+            }
+
+            a {
+                margin: 1rem 0;
+                font-size: 3rem;
+            }
+
+            #nav-close {
+                display: block;
+                position: absolute;
+                top: 1rem;
+                right: 2rem;
+            }
+        }
+    }
+
+
+    .main .main-content h1 {
+        font-size: 10vw;
+        line-height: 12vw;
+    }
+
+    .main .contact-btn {
+        margin-left: 30px;
+    }
+
+    .heading {
+        font-size: 9vw;
+    }
+
+    .what-we-do-container .box-c img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .what-we-do-container .box-c h3 {
+        font-size: 5vw;
+
+    }
+
+    .what-we-do-container .box-c p {
+        font-size: 4vw;
+        color: rgb(83, 82, 82);
+    }
+
+    /*Garalaey*/
+
+
+    .images-container {
+        flex-direction: column;
+    }
+
+
+    .images-container .img-box {
+
+        display: flex;
+        width: 60vw;
+        height: 36vw;
+
+        margin: 10px;
+        box-sizing: border-box;
+        background-color: #ec4a22;
+        border-radius: 10px;
+
+
+    }
+
+    .images-container .img-box img {
+        width: 60vw;
+        height: auto;
+        border-radius: 10px;
+
+    }
+
+    /* Courses */
+
+    .courses .box-container-course {
+        flex-direction: column;
+    }
+
+    .courses .box-c img {
+        height: 50vw;
+        width: 50vw;
+    }
+
+    /*testnomines*/
+    .testimonials__grid {
+        flex-direction: column;
+    }
+
+
+    /* contact us */
+
+
+    .contact-container .contact-info h2 {
+        font-size: 6vw;
+        margin-left: 35px;
+
+    }
+
+    .contact-container .contact-info p {
+        font-size: 3.6vw;
+        line-height: 1.5;
+    }
+
+    .contact-container .contact-info h3 {
+        font-size: 4vw;
+    }
+
+
+
+
+}
