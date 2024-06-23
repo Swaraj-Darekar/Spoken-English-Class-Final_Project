@@ -18,6 +18,16 @@ body {
 }
 
 
+.call-now-main {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    text-align: right;
+    z-index: 10;
+}
+
+
+
 .heading {
     text-align: center;
     margin-bottom: 2.5rem;
