@@ -69,7 +69,7 @@ header {
     left: 0;
     right: 0;
     padding: 2rem 8%;
-    /* z-index: 9; */
+    z-index: 9999;
     display: flex;
     align-items: center;
     height: 80px;
@@ -281,7 +281,7 @@ nav {
 }
 
 .slider-container .slider .slide.slide4 {
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(Assets/banner4.png);
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(Assets/banner-4.png);
     background-size: cover;
     background-position: center;
 }
