@@ -234,7 +234,7 @@ nav {
     left: 60px;
     right: 60px;
     padding: 30px;
-    background: rgba(0, 0, 0, .5);
+/*     background: rgba(0, 0, 0, .5); */
     box-sizing: border-box;
     transition: 0.5s;
 }
@@ -971,7 +971,7 @@ nav {
 
     .slider-container .slider .slide .caption {
 
-        bottom: 250px;
+        bottom: 350px;
         width: 80%;
         left: 20px;
         right: 20px;
