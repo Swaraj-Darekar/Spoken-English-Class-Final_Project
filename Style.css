@@ -262,26 +262,26 @@ nav {
 
 .slider-container .slider .slide.slide1 {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-                url(Assets/banner-1.jpg);
+                url(Assets/banner-1.png);
     background-size: cover;
     background-position: center;
     
 }
 
 .slider-container .slider .slide.slide2 {
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(Assets/Banner-2.jpg);
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(Assets/banner-2.png);
     background-size: cover;
     background-position: center;
 }
 
 .slider-container .slider .slide.slide3 {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(Assets/Banner-3.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(Assets/banner-3.png);
     background-size: cover;
     background-position: center;
 }
 
 .slider-container .slider .slide.slide4 {
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(Assets/banner-4.jpg);
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(Assets/banner-4.png);
     background-size: cover;
     background-position: center;
 }
