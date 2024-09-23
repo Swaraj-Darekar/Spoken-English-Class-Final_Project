@@ -31,6 +31,13 @@
 <body>
 
 
+    <div id="preloader"></div>
+
+    <div class="call-now-main">
+        <a href="tel:+919850775215" target="_blank"> <img src="Assets/phone-call.png" alt="" class="call-now-img"
+                width="17%"></a>
+    </div>
+
     <header>
 
 
@@ -454,6 +461,18 @@
     <Script src="Script.js"></Script>
 
 
+    
+    <!-- loader script -->
+    <script>
+
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+
+
+    </script>
 
 </body>
 
