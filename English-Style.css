@@ -165,6 +165,10 @@ nav {
     font-size: 1.3vw;
     color: rgb(6, 43, 54);
 }
+
+.main-course ul li {
+    margin-bottom: 10px;
+}
 .course-img {
     width: 30vw;
     height: 60vh;
