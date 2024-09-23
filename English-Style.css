@@ -886,10 +886,21 @@ nav {
     }
 
     .course-details {
-        display: none;
+/*         display: none; */
+        background-color: #fff;
+    }
+
+    .course-details .course-class-details {
+        width: 100%;
     }
 
 
+    .course-details .course-class-details h1 {
+        font-size: 6vw;
+    }
+
+
+    
 
     /* English ends */
 
